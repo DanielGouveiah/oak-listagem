@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #262626;
+}
+
+.wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+.formulario {
+  display: grid;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #121212;
+  color: white;
+  border-radius: 20px;
+}
+
+label {
+  margin: 16px 0px 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input, textarea{
+  padding: 8px 12px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.adicionar {
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid black;
+  transition: .2s;
+  width: 40%;
+  margin-top: 20px;
+  justify-self: flex-end;
+}
+
+.adicionar:hover {
+  background-color: white;
+  color: black;
+}
+
+.lista-wrapper {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 420px;
+  overflow-y: scroll;
+}
+
+
+
+.lista {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.lista th {
+  text-align: start;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.lista td {
+  background-color: #262626;
+  color: white;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.true {
+  color: lightgreen!important;
+}
+.false {
+  color: lightcoral!important;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Oak Listagem</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="formulario">
+      <form class="form">
+        <h2>Adicione um produto!</h2>
+        <label for="produto">Produto</label>
+        <input type="text" name="produto" id="produto">
+        <label for="valor">Valor</label>
+        <input type="number" name="valor" id="valor">
+        <label for="descricao">Descrição</label>
+        <textarea name="descricao" id="descricao" cols="30" rows="8"></textarea>
+        <label for="disponivel">
+          <input type="checkbox" name="disponivel" id="disponivel">
+          Disponivel para venda?
+        </label>
+      </form>
+      <button class="adicionar">Adicionar</button>
+    </div>
+
+    <section class="lista-wrapper">
+      <h2>Lista de produtos</h2>
+      <table class="lista">
+        <tr>
+          <th style="width: 40%">Produto</th>
+          <th>Valor</th>
+          <th>Disponível</th>
+          <th style="width: 60%">Descrição</th>
+        </tr>
+      </table>
+    </section>
+  </div>
+
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>
