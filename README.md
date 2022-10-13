@@ -4,7 +4,7 @@
 
 #### O site não está completo, mas o fiz em um curto tempo e tentei ao máximo cumprir todos os requistos do desafio.
 
-### links do site
+### links do site:
 
 - github: https://github.com/DanielGouveiah/oak-listagem
 - site: https://danielgouveiah.github.io/oak-listagem/

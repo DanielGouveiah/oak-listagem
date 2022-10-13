@@ -38,7 +38,8 @@ label {
   font-weight: 500;
 }
 
-input, textarea{
+input,
+textarea {
   padding: 8px 12px;
   outline: none;
   border-radius: 4px;
@@ -58,7 +59,7 @@ textarea {
   color: white;
   text-transform: uppercase;
   border: 1px solid black;
-  transition: .2s;
+  transition: 0.2s;
   width: 40%;
   margin-top: 20px;
   justify-self: flex-end;
@@ -76,8 +77,6 @@ textarea {
   max-height: 420px;
   overflow-y: scroll;
 }
-
-
 
 .lista {
   margin: 20px 0;
@@ -99,9 +98,34 @@ textarea {
   padding: 4px;
 }
 
+.lista .item {
+  cursor: pointer;
+}
+
 .true {
-  color: lightgreen!important;
+  color: lightgreen !important;
 }
 .false {
-  color: lightcoral!important;
+  color: lightcoral !important;
+}
+
+@media (max-width: 840px) {
+  .wrapper {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    align-items: center;
+  }
+  .form {
+    max-width: 300px;
+  }
 }
